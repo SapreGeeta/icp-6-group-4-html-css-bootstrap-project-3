@@ -4,3 +4,53 @@ body{
 .Top-heading{
     background-color: #e3f2d4E9;
 }
+.navbar{
+    margin-top: 10px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo{
+    margin-left: 150px;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navbar ul li{
+    padding: 10px 30px;
+   position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+.dropdown li{
+    display: block;
+    position: absolute;
+
+}
+#main-Product-Image{
+    height:400px;
+    width: 400px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0 ,0.25);
+    display: block;
+    margin: 20px auto;
+}
+.Product-Images{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;  
+}
+.product-image-container{
+    display: flex;
+    justify-content: center;
+}
