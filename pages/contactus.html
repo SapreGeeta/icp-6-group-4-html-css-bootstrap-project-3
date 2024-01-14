@@ -133,9 +133,6 @@ button {
     cursor: pointer;
     font-size: 0.8em;
 }
-.border-radius{
-    border-radius: 50px;
-}
 
 @media screen and (min-width:900px) {
     form>div input {
@@ -149,8 +146,8 @@ button {
  </style>
 <body>
     <div class="formBox">
-        <h2 class="margin-bottom">Contact Us</h2>
-        <p class="font-size">You will hear from us at the earliest!</p>
+        <h2>Contact Us</h2>
+        <p>You will hear from us at the earliest!</p>
         <form action="#">
             <div class="nameInp">
                 <i class="fa fa-user icon"></i>
@@ -168,54 +165,39 @@ button {
                 <textarea name="query" id="query" cols="30" rows="5"
                     placeholder="Any comment or your query"></textarea>
             </div>
-            <label class="font-size bg-color margin-right">How do you rate your overall experience?</label>
+            <label class="margin-right">How do you rate your overall experience?</label>
             <div class="mb-3 d-flex flex-row py-1">
-            <div class="form-check mr-3 border-radius">
+            <div class="form-check mr-3">
             <input class="form-check-input margin" type="radio" name="rating" id="rating_bad" value="bad">
-             <label class="form-check-label margin1" for="rating_bad">
-             Bad</label>
-    </div>
+            <label class="form-check-label margin1" for="rating_bad">
+             Bad
+            </label>
+            </div>
   
             <div class="form-check mx-3">
             <input class="form-check-input margin" type="radio" name="rating" id="rating_good" value="good">
             <label class="form-check-label margin1" for="rating_good">
-             Good
-        </label>
-  </div>
+            Good
+         </label>
+    </div>
   
-  <div class="form-check mx-3">
-  <input class="form-check-input margin"  type="radio" name="rating" id="rating_excellent" value="excellent">
-  <label class="form-check-label margin1" for="rating_excellent">
-    Excellent!
-  </label>
-  </div>
+            <div class="form-check mx-3">
+            <input class="form-check-input margin"  type="radio" name="rating" id="rating_excellent" value="excellent">
+            <label class="form-check-label margin1" for="rating_excellent">
+             Excellent!
+        </label>
+    </div>
 </div>
             <div class="submitBtn">
                 <button id="btn" onclick="notif()">Send</button>
             </div>
         </form>
-        <p class="extra">You can also contact us at 991-234-415</p>
+        <p class="extra">You can also contact us at 991-4751-312</p>
     </div>
-    <script>
-        
-        function sleep(ms) {
-                return new Promise(resolve => setTimeout(resolve, ms));
-            }
-
-            async function notif() {
-                let btn = document.getElementById("btn")
-                await sleep(2000)
-                btn.textContent = "Sent Successfully !!"
-                await sleep(6000)
-                btn.textContent = "Send"
-            }
-Resources
-    </script>
     
-</body>
-    <script
-     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+<script
+ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
 
-    </script>
+</script>
 </body>
 </html>
