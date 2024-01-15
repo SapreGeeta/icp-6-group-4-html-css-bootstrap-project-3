@@ -54,3 +54,50 @@ body{
     display: flex;
     justify-content: center;
 }
+.Container{
+        padding: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+}
+.item{
+        height: 350px;
+        width: 250px;
+        margin: 10px;
+        font-size: 50px;
+        padding: 5px;
+        transition: transform 450ms;
+        
+       
+}
+.img-resizer{
+    height: 200px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: transform 450ms;
+}
+.font-size{
+    font-size: 12px;
+    
+}
+.btn{
+    background-color: #7a9352;
+    color: white;
+}
+.Categories-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        cursor: pointer;
+
+}
+.items{
+    margin: 10px;
+}
+.Categories-img{
+    height:250px;
+}
+.explore more{
+   display:flex;
+   justify-content: center;
+}
