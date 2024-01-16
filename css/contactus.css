@@ -1,14 +1,9 @@
-.margin-bottom{
-    margin-bottom: -10px;
-}
 .contact{
     font-size: 30px;
 }
-
 .font-size{
 font-size: 1.1em;
 }
-
 .margin-right{
 margin-right: 400px;
 padding: 8px;
@@ -27,14 +22,12 @@ padding: 10px;
 position: relative;
 font-size: 1.3em;
 }
-
 form>div i {
 position: absolute;
 top: 22px;
 margin-left: 10px;
 opacity: 0.6;
 }
-
 form>div input {
 height: 1.5em;
 width: 70vw;
@@ -44,46 +37,49 @@ border-radius: 20px;
 outline: none;
 border: 1px solid #b5adad;
 background-color: #f1f1f1;
-
 }
-
 div>input:focus {
 border: 1px solid #6f6a6a;
 }
-
 form>div:hover>i {
-
 opacity: 1;
 transition: opacity 1s;
-}
-
-textarea {
-border: none;
-width: 70vw;
-border-radius: 20px;
-padding: 10px;
-outline: none;
-font-size: 1em;
 }
 button {
 width: 50%;
 height: 5vh;
 color: #ffffff;
-background: #cd8834;
+background: #ebad62;
 outline: none;
 border: none;
 border-radius: 10px;
 cursor: pointer;
 font-size: 0.8em;
+}
+.navbar{
+    background-color: #E3F2D4;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo{
+    margin-left: 150px;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navbar ul li{
+    padding: 10px 30px;
+   position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+.dropdown li{
+    display: block;
+    position: absolute;
 
 }
 
-@media screen and (min-width:900px) {
-form>div input {
-    width: 50vw;
-}
-
-textarea {
-    width: 50vw;
-}
-}
