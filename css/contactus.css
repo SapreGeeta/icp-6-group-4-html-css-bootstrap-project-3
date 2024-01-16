@@ -45,14 +45,4 @@ form>div:hover>i {
 opacity: 1;
 transition: opacity 1s;
 }
-button {
-width: 50%;
-height: 5vh;
-color: #ffffff;
-background: green;
-outline: none;
-border: none;
-border-radius: 10px;
-cursor: pointer;
-font-size: 0.8em;
-}
+
