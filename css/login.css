@@ -12,6 +12,7 @@ body{
     height: 250px;
     width:300px;
  margin-top: 40%;
+ display: none;
   }
 .navbar{
    background-color: #E3F2D4;
