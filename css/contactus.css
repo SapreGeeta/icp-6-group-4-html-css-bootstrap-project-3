@@ -1,5 +1,5 @@
 .contact{
-    font-size: 30px;
+    font-size: 27px;
 }
 .font-size{
 font-size: 1.1em;
@@ -49,7 +49,7 @@ button {
 width: 50%;
 height: 5vh;
 color: #ffffff;
-background: #ebad62;
+background: green;
 outline: none;
 border: none;
 border-radius: 10px;
