@@ -1,0 +1,40 @@
+
+.b-img{
+    height:150% ;
+    width:100%;
+
+}
+.title{
+    color:  #7a9352;
+    background-color:  #dff5d9;
+}
+.card{
+  margin-top: 40px;
+}
+#cartIcon {
+    cursor: pointer;
+}
+.btn-q{
+  background-color: #7a9352;
+  border: #fff;
+  border-radius: 3px;
+
+}
+  .btn-s{
+
+background-color: #7a9352;
+margin-top: 20px;
+
+}
+.btn-b{
+margin-left: 170px;
+}
+.card-title{
+color:  black;
+font-weight: bold;
+}
+.card:hover{
+ transform: scale(1.02);
+ transition: transform 0.5s ease;
+ 
+}

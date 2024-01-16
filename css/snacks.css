@@ -1,0 +1,77 @@
+
+
+
+
+.b-img{
+    height:300px ;
+    width:100%;
+
+}
+.title{
+    color:  #7a9352;
+    background-color:  #dff5d9;
+}
+.card{
+  margin-top: 20px;
+}
+.card:hover{
+  transition: 0.5s;
+  box-shadow: 1px 1px 2px 0 black ;
+}
+#cartIcon {
+    cursor: pointer;
+}
+.btn-b{
+margin-left: 1000px;
+}
+.card {
+margin: 10px;
+border: 2px  solid black;
+border-radius: 6px;
+width: 250px;
+}
+
+
+.new{
+margin-left: 210px;
+}
+
+.font-size{
+
+font-size: 12px;
+}
+
+
+body{
+  margin: 0;
+}
+
+
+.navbar{
+  background-color: #E3F2D4;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.logo{
+  margin-left: 150px;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.navbar ul li{
+  padding: 10px 30px;
+ position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+}
+.dropdown li{
+  display: block;
+  position: absolute;
+
+}
+
+
