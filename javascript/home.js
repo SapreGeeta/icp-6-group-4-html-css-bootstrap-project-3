@@ -1,23 +1,23 @@
 function changeImage(num){
-    const mainImage = document.getElementById('main-Product-Image');
+    const mainImage = document.getElementById("main-Product-Image");
    
     if(num==1){
-       mainImage.src="pro 1.webp" ;
+       mainImage.src="./image/pro1.webp";
     }
     else if (num==2){
-       mainImage.src="pro2.webp";
+       mainImage.src="./image/pro2.webp";
     }
     else if (num==3){
-     mainImage.src="pro 3.webp";
+     mainImage.src="./image/pro3.webp";
    }
    else if (num==4){
-       mainImage.src ="pro 4.webp";
+       mainImage.src ="./image/pro4.webp";
    }
    else if (num==5){
-       mainImage.src="pro 5.webp";
+       mainImage.src="./image/pro5.webpp";
    }
    else if (num==6){
-       mainImage.src="pro6.webp";
+       mainImage.src="./image/pro6.webp";
    }
    
-   }
+}
