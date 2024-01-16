@@ -56,27 +56,21 @@ body{
         justify-content: space-evenly;
         align-items: center;
 }
-
-
 .img-resizer{
     height: 200px;
     margin: 10px;
     margin-left: 20px;
     cursor: pointer;
- 
 }
 
 .font-size{
-    
     font-size: 12px;
-    
 }
 .Categories-container{
         display: flex;
         justify-content: space-evenly;
         align-items: flex-start;
         cursor: pointer;
-
 }
 .items{
     margin: 10px;
@@ -109,14 +103,10 @@ body{
   border-radius: 6px;
   width: 250px;
   }
-  
-  
   .new{
   margin-left: 210px;
   }
-  
   .font-size{
-  
   font-size: 12px;
   }
   .col-md-3{
