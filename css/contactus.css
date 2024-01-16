@@ -1,0 +1,89 @@
+.margin-bottom{
+    margin-bottom: -10px;
+}
+.contact{
+    font-size: 30px;
+}
+
+.font-size{
+font-size: 1.1em;
+}
+
+.margin-right{
+margin-right: 400px;
+padding: 8px;
+border-radius: 50px;
+border:1px solid #b5adad;
+background-color: #f1f1f1;
+}
+.margin{
+margin: 8px;
+}
+.margin1{
+margin: 4px;
+}
+form>div {
+padding: 10px;
+position: relative;
+font-size: 1.3em;
+}
+
+form>div i {
+position: absolute;
+top: 22px;
+margin-left: 10px;
+opacity: 0.6;
+}
+
+form>div input {
+height: 1.5em;
+width: 70vw;
+padding-left: 40px;
+font-size: 1em;
+border-radius: 20px;
+outline: none;
+border: 1px solid #b5adad;
+background-color: #f1f1f1;
+
+}
+
+div>input:focus {
+border: 1px solid #6f6a6a;
+}
+
+form>div:hover>i {
+
+opacity: 1;
+transition: opacity 1s;
+}
+
+textarea {
+border: none;
+width: 70vw;
+border-radius: 20px;
+padding: 10px;
+outline: none;
+font-size: 1em;
+}
+button {
+width: 50%;
+height: 5vh;
+color: #ffffff;
+background: #cd8834;
+outline: none;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+font-size: 0.8em;
+
+}
+
+@media screen and (min-width:900px) {
+form>div input {
+    width: 50vw;
+}
+
+textarea {
+    width: 50vw;
+}
+}
