@@ -1,5 +1,5 @@
 .b-img{
-    height:300px ;
+    height:200px ;
     width:100%;
 
 }
@@ -35,4 +35,40 @@ margin-left: 210px;
 .font-size{
 
 font-size: 12px;
+}
+
+.card:hover{
+  
+  transform: scale(1.02);
+  transition: transform 0.5s ease;
+  
+ }
+
+
+ .navbar{
+  background-color: #E3F2D4;
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+}
+.logo{
+   margin-left: 150px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.navbar ul li{
+  padding: 10px 30px;
+ position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+}
+.dropdown li{
+  display: block;
+  position: absolute;
+
 }
